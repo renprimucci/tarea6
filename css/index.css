@@ -1,0 +1,134 @@
+
+/* INDEX */
+
+    /* HEADER */
+    header {
+        background-color: blueviolet;
+    }
+        .cabecera {
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         justify-content: space-evenly;
+         list-style: none;
+
+        }
+        .header .titulo {
+        color:white;
+        background-color: blueviolet;
+
+        }
+
+        .logo-goats {
+            width: 100%;
+            padding-top: 10px;
+            
+        }
+        .list-items {
+            color: black;
+            background-color: rgb(228, 170, 64);
+            width: 98%;
+            padding: 1%;
+            margin: 0%;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+        }
+    /* MAIN */
+    .main {
+    background-color: beige;
+    }
+        .subtitulo-nuevoslanzamientos, .subtitulo-ofertas, .subtitulo-lasmasvendidas {
+            color: white;
+            background-color: rgb(138, 43, 226);
+            padding: 6px;
+        }
+    /* ASIDE */
+        .aside {
+            color: black;
+            background-color: rgb(228, 170, 64);
+        
+        }
+        .lista-aside {
+            padding-top: 1%;
+            padding-bottom: 1%;
+            margin: 0%;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 10px;
+        }
+    /* FOOTER*/
+        .footer {
+            color: black;
+            background-color:  rgb(228, 170, 64);
+            margin-top: 1em;
+            }
+            .lista-footer {
+                width: 98%;
+                margin: 0%;
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                padding:  1%;
+            }
+            .contacto {
+                color: black;
+                text-decoration: none;
+                
+          
+            }
+            .horarios-atencion {
+                color: black;
+                text-decoration: none;
+            
+            }
+            .instagram {
+                width: 50px;
+             
+            }
+            .tiktok {
+                width: 50px;
+            }
+            .youtube {
+                width: 50px;
+            }
+
+        /* HORARIOS */
+        .tabla {
+            background-color: beige;
+        }
+        .dias {
+            color: black;
+            background-color: rgb(200, 200, 200);
+            font-weight: bolder;
+         }
+        .horarios {
+            color: black;
+            background-color: rgb(200, 200, 200);
+            font-style: oblique;
+        }
+        .titulohorarios {
+            color: black;
+            background-color: rgb(228, 170, 64);
+            font-style: italic;
+        }
+        .titulodias {
+            color: white;
+            background-color: blueviolet;
+        }
+
+/*FORMULARIO*/
+        .formulario {
+        color: black;
+        background-color: white;
+        margin: 5%;
+        padding: 5%;
+        border: 5px solid black;
+         }
